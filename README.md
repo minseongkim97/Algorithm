@@ -1,2 +1,2 @@
 # Algorithm
-coding test practice repo
+:computer: coding test practice repo
