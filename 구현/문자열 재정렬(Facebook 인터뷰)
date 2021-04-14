@@ -1,0 +1,16 @@
+a = input()
+listAlpha = []
+sum = 0
+
+for i in a:
+    if i.isalpha():
+        listAlpha.append(i)
+    else:
+        sum += int(i)
+
+listAlpha.sort()
+
+if sum != 0:
+    listAlpha.append(str(sum))
+value = "".join(listAlpha)
+print(value)
