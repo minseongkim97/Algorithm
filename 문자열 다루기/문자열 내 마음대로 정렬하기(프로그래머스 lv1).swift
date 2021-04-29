@@ -30,3 +30,4 @@ func solution(_ strings:[String], _ n:Int) -> [String] {
 // 문자열 index와 Array 정렬에 대해 더 공부해봐야겠다.
 // strings[0]에서 0 대신 1,2 ,.. 원소의 개수-1까지 들어가도 상관없이 index는 1을 가르킬 것이다.
 // 삼항연산자 사용
+// Array로 변경하여 풀이
