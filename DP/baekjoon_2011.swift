@@ -8,7 +8,12 @@
 import Foundation
 
 // dp[a] = b 의 의미는 "a번째 숫자까지 읽을 수 있는 단어의 갯수는 b개입니다"
-// 예외 처리 - 0으로 시작할 때
+// 예외 처리: 0으로 시작할 때
+/* 
+생각해줘야 할 상황
+1. 00이 연속으로 나올 때
+2. 중간에 0이 나오는 데 암호를 만들 수 없을 때 ex) 3040, 25304
+*/
 
 let cipher = Array(readLine()!).map {Int(String($0))!}
 let cnt = cipher.count
