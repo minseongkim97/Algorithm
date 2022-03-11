@@ -2,8 +2,11 @@
 :computer: coding test practice repo
 
 ## 순열 & 조합
+
+
 <details>
-    <summary>Factorial</summary>
+<summary>Factorial</summary>
+
 ```
 func factorial(_ n: Int) -> Int {
     var n = n
@@ -18,7 +21,8 @@ func factorial(_ n: Int) -> Int {
 </details>
 
 <details>
-    <summary>Permutation(순열)</summary>
+<summary>Permutation(순열)</summary>
+
 ```
 func permutation<T>(_ elements: [T], _ k: Int) -> [[T]] {
     var result = [[T]]()
@@ -43,8 +47,10 @@ func permutation<T>(_ elements: [T], _ k: Int) -> [[T]] {
 ```
 </details>
 
+
 <details>
-    <summary>Combination(조합)</summary>
+<summary>Combination(조합)</summary>
+
 ```
 func combination<T>(_ elements: [T], _ k: Int) -> [[T]] {
     var result = [[T]]()
@@ -63,4 +69,3 @@ func combination<T>(_ elements: [T], _ k: Int) -> [[T]] {
 }
 ```
 </details>
-
