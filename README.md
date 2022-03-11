@@ -1,7 +1,9 @@
 # Algorithm
 :computer: coding test practice repo
 
-# 순열 & 조합
+## 순열 & 조합
+<details>
+    <summary>Factorial</summary>
 ```
 func factorial(_ n: Int) -> Int {
     var n = n
@@ -12,23 +14,12 @@ func factorial(_ n: Int) -> Int {
     }
     return result
 }
+```
+</details>
 
-func combination<T>(_ elements: [T], _ k: Int) -> [[T]] {
-    var result = [[T]]()
-    
-    func combi(_ index: Int, _ now: [T]) {
-        if now.count == k {
-            result.append(now)
-            return
-        }
-        for i in index..<elements.count {
-            combi(i + 1, now + [elements[i]])
-        }
-    }
-    combi(0, [])
-    return result
-}
-
+<details>
+    <summary>Permutation(순열)</summary>
+```
 func permutation<T>(_ elements: [T], _ k: Int) -> [[T]] {
     var result = [[T]]()
     var visited = [Bool](repeating: false, count: elements.count)
@@ -50,3 +41,26 @@ func permutation<T>(_ elements: [T], _ k: Int) -> [[T]] {
     return result
 }
 ```
+</details>
+
+<details>
+    <summary>Combination(조합)</summary>
+```
+func combination<T>(_ elements: [T], _ k: Int) -> [[T]] {
+    var result = [[T]]()
+    
+    func combi(_ index: Int, _ now: [T]) {
+        if now.count == k {
+            result.append(now)
+            return
+        }
+        for i in index..<elements.count {
+            combi(i + 1, now + [elements[i]])
+        }
+    }
+    combi(0, [])
+    return result
+}
+```
+</details>
+
