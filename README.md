@@ -10,7 +10,7 @@
 ```
 </details>
 
-## Floyd-Warshall & 
+## Floyd-Warshall & Dijkstra
 <details>
 <summary>Floyd-Warshall</summary>
 
