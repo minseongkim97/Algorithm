@@ -1,5 +1,5 @@
 # Algorithm
-:computer: coding test practice rep
+:computer: coding test practice repo
 
 ## BFS & DFS
 <details>
