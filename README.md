@@ -1,6 +1,8 @@
 # Algorithm
 :computer: coding test practice repo
 
+## 문자열
+
 ## BFS & DFS
 <details>
 <summary>BFS & DFS</summary>
