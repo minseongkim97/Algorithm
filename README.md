@@ -1,5 +1,5 @@
 # Algorithm
-:computer: coding test practice repo
+:computer: coding test practice rep
 
 ## 문자열
 
